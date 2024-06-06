@@ -1,0 +1,107 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #ddd;
+  padding: 20px 0;
+}
+
+.logo {
+  width: 150px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #007bff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+section h2 {
+  color: #007bff;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+section p,
+section ul {
+  line-height: 1.6;
+}
+
+section img {
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.faq-item {
+  margin-bottom: 15px;
+}
+
+.faq-item h3 {
+  cursor: pointer;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.faq-item p {
+  display: none;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-left: 3px solid #007bff;
+  margin-left: 10px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+.carousel-caption {
+  color: #333; /* Color del texto */
+  font-family: "Poppins", sans-serif; /* Fuente que resalta */
+  font-weight: 700; /* Fuente en negrita */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Sombra de texto */
+  background-color: rgba(255, 255, 255, 0.7); /* Fondo semitransparente */
+  padding: 10px;
+  border-radius: 5px;
+}
